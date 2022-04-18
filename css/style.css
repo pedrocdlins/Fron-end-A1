@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Titillium+Web&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +40,21 @@ header{
     background-size: cover;
 }
 
-.texto-banner a{
-    height: 400px;
+.posicao-texto{
+    justify-content: flex-start;
+}
 
+.texto-banner h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.texto-banner a{
+    background-color: #C31616;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 5px;
 }
